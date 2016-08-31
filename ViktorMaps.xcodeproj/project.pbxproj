@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		525A6E3D1D38C577008A763C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 525A6E3C1D38C577008A763C /* main.m */; };
+		525A6E401D38C577008A763C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 525A6E3F1D38C577008A763C /* AppDelegate.m */; };
+		525A6E431D38C577008A763C /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 525A6E421D38C577008A763C /* MapViewController.m */; };
+		525A6E461D38C577008A763C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525A6E441D38C577008A763C /* Main.storyboard */; };
+		525A6E481D38C577008A763C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 525A6E471D38C577008A763C /* Assets.xcassets */; };
+		525A6E4B1D38C577008A763C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525A6E491D38C577008A763C /* LaunchScreen.storyboard */; };
+		525A6E731D38C812008A763C /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 525A6E721D38C812008A763C /* TableViewController.m */; };
+		5265F4041D3CE21300AE6CBF /* MapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5265F4031D3CE21300AE6CBF /* MapAnnotation.m */; };
+		52F2BD7E1D4217A8007C5ED1 /* libc++.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 52F2BD7D1D4217A8007C5ED1 /* libc++.1.tbd */; };
+		52F9C0121D3A37BE001DF208 /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F9C0111D3A37BE001DF208 /* LocationManager.m */; };
+		9C1A0E7D1D51E410007D6F3B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C1A0E7C1D51E410007D6F3B /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		525A6E521D38C577008A763C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 525A6E301D38C577008A763C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 525A6E371D38C577008A763C;
+			remoteInfo = "Dream Maps";
+		};
+		525A6E5D1D38C577008A763C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 525A6E301D38C577008A763C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 525A6E371D38C577008A763C;
+			remoteInfo = "Dream Maps";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		52F2BD791D42096F007C5ED1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		525A6E381D38C577008A763C /* ViktorMaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViktorMaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		525A6E3C1D38C577008A763C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		525A6E3E1D38C577008A763C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		525A6E3F1D38C577008A763C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		525A6E411D38C577008A763C /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		525A6E421D38C577008A763C /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		525A6E451D38C577008A763C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		525A6E471D38C577008A763C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		525A6E4A1D38C577008A763C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		525A6E4C1D38C577008A763C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		525A6E511D38C577008A763C /* ViktorMaps.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViktorMaps.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		525A6E5C1D38C577008A763C /* ViktorMaps.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViktorMaps.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		525A6E711D38C812008A763C /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		525A6E721D38C812008A763C /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		525A6E771D38CD35008A763C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		5265F4021D3CE21300AE6CBF /* MapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapAnnotation.h; sourceTree = "<group>"; };
+		5265F4031D3CE21300AE6CBF /* MapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapAnnotation.m; sourceTree = "<group>"; };
+		52F2BD7D1D4217A8007C5ED1 /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
+		52F9C0101D3A37BE001DF208 /* LocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationManager.h; sourceTree = "<group>"; };
+		52F9C0111D3A37BE001DF208 /* LocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationManager.m; sourceTree = "<group>"; };
+		9C1A0E7C1D51E410007D6F3B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		525A6E351D38C577008A763C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52F2BD7E1D4217A8007C5ED1 /* libc++.1.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525A6E4E1D38C577008A763C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525A6E591D38C577008A763C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		520EDD131D4E1D4A00A1DD27 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				525A6E711D38C812008A763C /* TableViewController.h */,
+				525A6E721D38C812008A763C /* TableViewController.m */,
+				525A6E411D38C577008A763C /* MapViewController.h */,
+				525A6E421D38C577008A763C /* MapViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		520EDD141D4E1D6700A1DD27 /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				52F9C0101D3A37BE001DF208 /* LocationManager.h */,
+				52F9C0111D3A37BE001DF208 /* LocationManager.m */,
+			);
+			name = "Data Models";
+			sourceTree = "<group>";
+		};
+		525A6E2F1D38C577008A763C = {
+			isa = PBXGroup;
+			children = (
+				525A6E3A1D38C577008A763C /* ViktorMaps */,
+				525A6E391D38C577008A763C /* Products */,
+				BD080667D86CF9650955A717 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		525A6E391D38C577008A763C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				525A6E381D38C577008A763C /* ViktorMaps.app */,
+				525A6E511D38C577008A763C /* ViktorMaps.xctest */,
+				525A6E5C1D38C577008A763C /* ViktorMaps.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		525A6E3A1D38C577008A763C /* ViktorMaps */ = {
+			isa = PBXGroup;
+			children = (
+				525A6E3E1D38C577008A763C /* AppDelegate.h */,
+				525A6E3F1D38C577008A763C /* AppDelegate.m */,
+				520EDD141D4E1D6700A1DD27 /* Data Models */,
+				520EDD131D4E1D4A00A1DD27 /* View Controllers */,
+				525A6E441D38C577008A763C /* Main.storyboard */,
+				525A6E471D38C577008A763C /* Assets.xcassets */,
+				525A6E491D38C577008A763C /* LaunchScreen.storyboard */,
+				525A6E4C1D38C577008A763C /* Info.plist */,
+				525A6E3B1D38C577008A763C /* Supporting Files */,
+			);
+			name = ViktorMaps;
+			path = "Dream Maps";
+			sourceTree = "<group>";
+		};
+		525A6E3B1D38C577008A763C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C1A0E7C1D51E410007D6F3B /* Default-568h@2x.png */,
+				525A6E3C1D38C577008A763C /* main.m */,
+				5265F4021D3CE21300AE6CBF /* MapAnnotation.h */,
+				5265F4031D3CE21300AE6CBF /* MapAnnotation.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD080667D86CF9650955A717 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52F2BD7D1D4217A8007C5ED1 /* libc++.1.tbd */,
+				525A6E771D38CD35008A763C /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		525A6E371D38C577008A763C /* ViktorMaps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525A6E651D38C577008A763C /* Build configuration list for PBXNativeTarget "ViktorMaps" */;
+			buildPhases = (
+				525A6E341D38C577008A763C /* Sources */,
+				525A6E351D38C577008A763C /* Frameworks */,
+				525A6E361D38C577008A763C /* Resources */,
+				52F2BD791D42096F007C5ED1 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViktorMaps;
+			productName = "Dream Maps";
+			productReference = 525A6E381D38C577008A763C /* ViktorMaps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		525A6E501D38C577008A763C /* ViktorMapsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525A6E681D38C577008A763C /* Build configuration list for PBXNativeTarget "ViktorMapsTests" */;
+			buildPhases = (
+				AA1B11AD6EAD5335419DDA74 /* [CP] Check Pods Manifest.lock */,
+				525A6E4D1D38C577008A763C /* Sources */,
+				525A6E4E1D38C577008A763C /* Frameworks */,
+				525A6E4F1D38C577008A763C /* Resources */,
+				24C26EB30A21F58EBC34A789 /* [CP] Embed Pods Frameworks */,
+				E030F36208FD70EE2D04CBFF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				525A6E531D38C577008A763C /* PBXTargetDependency */,
+			);
+			name = ViktorMapsTests;
+			productName = "Dream MapsTests";
+			productReference = 525A6E511D38C577008A763C /* ViktorMaps.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		525A6E5B1D38C577008A763C /* ViktorMapsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525A6E6B1D38C577008A763C /* Build configuration list for PBXNativeTarget "ViktorMapsUITests" */;
+			buildPhases = (
+				9971494C1E7299742C729622 /* [CP] Check Pods Manifest.lock */,
+				525A6E581D38C577008A763C /* Sources */,
+				525A6E591D38C577008A763C /* Frameworks */,
+				525A6E5A1D38C577008A763C /* Resources */,
+				848A1EDFA69742BF57F91BF6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				525A6E5E1D38C577008A763C /* PBXTargetDependency */,
+			);
+			name = ViktorMapsUITests;
+			productName = "Dream MapsUITests";
+			productReference = 525A6E5C1D38C577008A763C /* ViktorMaps.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		525A6E301D38C577008A763C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Yura Yasinskyy";
+				TargetAttributes = {
+					525A6E371D38C577008A763C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = M7LFA46QZA;
+					};
+					525A6E501D38C577008A763C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = M7LFA46QZA;
+						TestTargetID = 525A6E371D38C577008A763C;
+					};
+					525A6E5B1D38C577008A763C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = M7LFA46QZA;
+						TestTargetID = 525A6E371D38C577008A763C;
+					};
+				};
+			};
+			buildConfigurationList = 525A6E331D38C577008A763C /* Build configuration list for PBXProject "ViktorMaps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 525A6E2F1D38C577008A763C;
+			productRefGroup = 525A6E391D38C577008A763C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				525A6E371D38C577008A763C /* ViktorMaps */,
+				525A6E501D38C577008A763C /* ViktorMapsTests */,
+				525A6E5B1D38C577008A763C /* ViktorMapsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		525A6E361D38C577008A763C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525A6E4B1D38C577008A763C /* LaunchScreen.storyboard in Resources */,
+				9C1A0E7D1D51E410007D6F3B /* Default-568h@2x.png in Resources */,
+				525A6E481D38C577008A763C /* Assets.xcassets in Resources */,
+				525A6E461D38C577008A763C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525A6E4F1D38C577008A763C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525A6E5A1D38C577008A763C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24C26EB30A21F58EBC34A789 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dream MapsTests/Pods-Dream MapsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		848A1EDFA69742BF57F91BF6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dream MapsUITests/Pods-Dream MapsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9971494C1E7299742C729622 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AA1B11AD6EAD5335419DDA74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E030F36208FD70EE2D04CBFF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dream MapsTests/Pods-Dream MapsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		525A6E341D38C577008A763C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525A6E431D38C577008A763C /* MapViewController.m in Sources */,
+				5265F4041D3CE21300AE6CBF /* MapAnnotation.m in Sources */,
+				525A6E401D38C577008A763C /* AppDelegate.m in Sources */,
+				525A6E3D1D38C577008A763C /* main.m in Sources */,
+				52F9C0121D3A37BE001DF208 /* LocationManager.m in Sources */,
+				525A6E731D38C812008A763C /* TableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525A6E4D1D38C577008A763C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525A6E581D38C577008A763C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		525A6E531D38C577008A763C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 525A6E371D38C577008A763C /* ViktorMaps */;
+			targetProxy = 525A6E521D38C577008A763C /* PBXContainerItemProxy */;
+		};
+		525A6E5E1D38C577008A763C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 525A6E371D38C577008A763C /* ViktorMaps */;
+			targetProxy = 525A6E5D1D38C577008A763C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		525A6E441D38C577008A763C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				525A6E451D38C577008A763C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		525A6E491D38C577008A763C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				525A6E4A1D38C577008A763C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		525A6E631D38C577008A763C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		525A6E641D38C577008A763C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		525A6E661D38C577008A763C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Dream Maps/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ViktorGodovanets.ViktorMaps;
+				PRODUCT_NAME = ViktorMaps;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		525A6E671D38C577008A763C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Dream Maps/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ViktorGodovanets.ViktorMaps;
+				PRODUCT_NAME = ViktorMaps;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		525A6E691D38C577008A763C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Dream MapsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yurayasinskyy.Dream-MapsTests";
+				PRODUCT_NAME = ViktorMaps;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViktorMaps.app/ViktorMaps";
+			};
+			name = Debug;
+		};
+		525A6E6A1D38C577008A763C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Dream MapsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yurayasinskyy.Dream-MapsTests";
+				PRODUCT_NAME = ViktorMaps;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViktorMaps.app/ViktorMaps";
+			};
+			name = Release;
+		};
+		525A6E6C1D38C577008A763C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Dream MapsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yurayasinskyy.Dream-MapsUITests";
+				PRODUCT_NAME = ViktorMaps;
+				TEST_TARGET_NAME = "Dream Maps";
+			};
+			name = Debug;
+		};
+		525A6E6D1D38C577008A763C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Dream MapsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yurayasinskyy.Dream-MapsUITests";
+				PRODUCT_NAME = ViktorMaps;
+				TEST_TARGET_NAME = "Dream Maps";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		525A6E331D38C577008A763C /* Build configuration list for PBXProject "ViktorMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525A6E631D38C577008A763C /* Debug */,
+				525A6E641D38C577008A763C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		525A6E651D38C577008A763C /* Build configuration list for PBXNativeTarget "ViktorMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525A6E661D38C577008A763C /* Debug */,
+				525A6E671D38C577008A763C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		525A6E681D38C577008A763C /* Build configuration list for PBXNativeTarget "ViktorMapsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525A6E691D38C577008A763C /* Debug */,
+				525A6E6A1D38C577008A763C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		525A6E6B1D38C577008A763C /* Build configuration list for PBXNativeTarget "ViktorMapsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525A6E6C1D38C577008A763C /* Debug */,
+				525A6E6D1D38C577008A763C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 525A6E301D38C577008A763C /* Project object */;
+}
